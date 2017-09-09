@@ -91,6 +91,7 @@
                     <execution>
                         <configuration>
                             <outputDirectory>${session.executionRootDirectory}/target/</outputDirectory>
+                            <finalName>ng-spring-full-app-${version}</finalName>
                         </configuration>
                         <goals>
                             <goal>repackage</goal>
